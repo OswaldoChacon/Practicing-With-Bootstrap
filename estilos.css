@@ -18,3 +18,11 @@ footer{
     background: rgb(16, 73, 148);
     color:white
 }
+/*Excepción de panels*/
+body > .container{
+    margin-top:10px
+}
+  
+li a {
+    color:white !important
+}
