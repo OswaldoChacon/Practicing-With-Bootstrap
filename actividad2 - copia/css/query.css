@@ -1,0 +1,93 @@
+/*Tamaño de las columnas tipo bootstrap*/
+/*.col-	        .col-sm-	.col-md-	.col-lg-	.col-xl-*/
+/*Extra small   Small       Medium      Large       Extra large
+    <576px	    ≥576px      ≥768px      ≥992px      ≥1200px*/
+@media (min-width: 576px) { 
+    /*sm*/
+    .col-sm-2{
+        width: 15%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-6{
+        width: 45%;
+    }   
+    .col-sm-10{
+        width: 78%;
+    }         
+ }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    /*md*/
+    html, body{
+        margin-top: 11%;
+    }
+    .col-md-2{
+        width: 17%;        
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83%;
+    }
+    .col-md-4{
+        width: 30%;
+    }   
+    .nav-toggle{
+        display: none;
+    }
+    .navbar-row-utilidades{
+        display: block
+    }  
+ } 
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    /*lg*/
+    html, body{
+        margin-top:7%;
+    }
+    .col-lg-2{
+        width: 17%;        
+    }
+    .col-lg-3{        
+        width: 25%;
+    }
+    .col-lg-4{
+        
+    }
+    .col-lg-5{
+        
+    }
+    .col-lg-6{
+        
+    }
+    .container{
+        margin:0px 80px 0px 100px;
+    }
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+    /*xl*/
+    html, body{
+        margin-top: 8%;
+    }
+    .container{
+        width: 20%
+    }
+    
+}
+
