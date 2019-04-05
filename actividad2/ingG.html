@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/query.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/button.js"></script>
     <title>Educación a Distancia | ITA</title>
 </head>
+
 <body>
-    
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
     <header>
         <div class="navbar container">
             <nav>
@@ -27,37 +32,38 @@
                 <div class="navbar-row-navigation">
                     <div class="row">
                         <div class="col-sm-3 col-md-3 col-xs-4 col-lg-2">
-                            <img src="assets/img/logo.png" style="width:100%">
+                            <img src="assets/img/logo.png" alt="ll">
                         </div>
-                        <div class="col-sm-9 col-md-9 col-xs-8">
 
-                            <label for="toggle">&#9776;</label>
-                            <input type="checkbox" id="toggle" />
+                        <label for="toggle">&#9776;</label>
+                        <input type="checkbox" id="toggle" />
 
-                            <div class="menu">
+                        <div class="col-sm-10 col-md-9 col-xs-9">
+
+                            <ul class="menu">
                                 <li><a href="actividad2.html">Inicio</a></li>
-                                <li class="submenu"><a href="">Carreras</a></li>
-                                <ul class="subnav">
-                                    <li>
-                                        <a href="ingG.html">Ingeniería en Gestión Empresarial</a>
-                                    </li>
-                                    <li><a href="#">Ingeniería Industrial</a></li>
-                                </ul>
-                                <li><a href="Contactos.html">Contactos</a></li>
+                                <li>
+                                    <a class="dropdown">Carreras</a>
+                                    <ul class="submenu">
+                                        <li><a href="ingG.html">Ing. Gestión Empresarial</a></li>
+                                        <li><a href="Industrial.html">Ingeniería Industrial</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contactos.html">Contactos</a></li>
                                 <li><a href="">Conocenos</a></li>
-                              
-                            </div>
+                            </ul>
                         </div>
+
                         <!-- <div class="col-xs-6 pull-right nav-toggle">
-                            <i class="fas fa-bars pull-right"></i>
-                        </div>-->
+                                <i class="fas fa-bars pull-right"></i>
+                            </div>-->
                     </div>
                 </div>
             </nav>
         </div>
     </header>
 
-    <section>
+    <!-- <section>
         <div class="img-content">
             <a href="#">
                 <img src="assets/img/ges.jpg">
@@ -76,75 +82,78 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-9">
+                    <div class="pull-right">
+                        <a href="#" class="button">CONSULTA LA RETICULA</a>
+                    </div>
+                    <p class="pjustificado">
+                        La Ingeniería en Gestión Empresarial contribuye a la gestión de empresas e innovación de
+                        procesos y de la cadena de suministros; así como al diseño, implementación y desarrollo de
+                        sistemas estratégicos de negocios, optimizando recursos en un entorno global, implementación
+                        de normas de calidad con ética y responsabilidad social.
+                    </p>
+                    <h3>¿Qué hacen los ingenieros o ingenieras en Gestión Empresarial?</h3>
+                    <p class="pjustificado">
+                        Diseñan nuevos negocios así como cadenas de suministros, implementan
+                        estrategias de mercado y de gestión en los negocios; analizan e
+                        interpretan la productividad de las empresas dominando la dirección de equipos de
+                        trabajo.
+                    </p>
+                    <h3> ¿Dónde trabajan? </h3>
+                    <p class="pjustificado">
+                        Dirección empresarial, sector público, sector privado, instituciones de
+                        servicios, productos y tecnología a nivel nacional e internacional,
+                        empresas de transformación industrial, administración, recursos humanos,
+                        producción; también pueden ser consultores, asesores, auditores,
+                        desempeñarse en gerencia a nivel global en las áreas de mercadotecnia,
+                        dirección, finanzas y sistemas, y en cualquier tipo de contexto laboral a
+                        nivel nacional e internacional.
+                    </p>
+                    <img src="assets/img/1.jpg" alt="gestion"> <br>
+                    <h3>
+                        Si quieres saber si la carrera de Ingeniería en Gestión Empresarial es para ti, pregúntate si
+                        tienes:
+                    </h3>
+                    <p style="font-size: 20px">
+                        Interés por la gestión de las empresas. <br>
+                        Habilidades y gusto por la innovación. <br>
+                        Cualidades de estrategia y liderazgo. <br>
+                        Responsabilidad ética, social y ambiental. <br>
+                    </p>
+                    <h2>Si crees tener tres de algunas de estas cualidades, entonces ¡eres candidato para estudiar
+                        Ingeniería en Gestión Empresarial!</h2>
+
+                </div>
+            </div>
+        </div>
     </section>
-        <section>
-            
+    <div class="footer">
+        <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-sm-9">
-                            <div class="pull-right">
-                                    <a href="#" class="button">CONSULTA LA RETICULA</a>
-                                </div>
-                            <p class="pjustificado" >
-                                    La Ingeniería en Gestión Empresarial contribuye a la gestión de empresas e innovación de
-                                    procesos y de la cadena de suministros; así como al diseño, implementación y desarrollo de
-                                    sistemas estratégicos de negocios, optimizando recursos en un entorno global, implementación
-                                    de normas de calidad con ética y responsabilidad social.
-                               </p> 
-                               <h3>¿Qué hacen los ingenieros o ingenieras en Gestión Empresarial?</h3>
-                               <p class="pjustificado" >
-                                    Diseñan nuevos negocios así como cadenas de suministros, implementan
-                                    estrategias de mercado y de gestión en los negocios; analizan e
-                                    interpretan la productividad de las empresas dominando la dirección de equipos de
-                                    trabajo.
-                               </p> 
-                               <h3> ¿Dónde trabajan? </h3>
-                               <p class="pjustificado">
-                                    Dirección empresarial, sector público, sector privado, instituciones de
-                                    servicios, productos y tecnología a nivel nacional e internacional, 
-                                    empresas de transformación industrial, administración, recursos humanos,
-                                    producción; también pueden ser consultores, asesores, auditores,
-                                    desempeñarse en gerencia a nivel global en las áreas de mercadotecnia,
-                                    dirección, finanzas y sistemas, y en cualquier tipo de contexto laboral a 
-                                    nivel nacional e internacional.
-                               </p>
-                                    <img src="assets/img/1.jpg" alt="gestion"> <br>
-                                <h3>
-                                        Si quieres saber si la carrera de Ingeniería en Gestión Empresarial es para ti, pregúntate si tienes:
-                                </h3> 
-                                <p style="font-size: 20px">
-                                        Interés por la gestión de las empresas. <br>
-                                        Habilidades y gusto por la innovación. <br>
-                                        Cualidades de estrategia y liderazgo. <br>
-                                        Responsabilidad ética, social y ambiental. <br>
-                                </p>        
-                                <h2>Si crees tener tres de algunas de estas cualidades, entonces ¡eres candidato para estudiar Ingeniería en Gestión Empresarial!</h2>
+                    <div class="col-sm-10">
+                        <span>
+                            contacto@ittg.edu.mx<br>
+                            Carretera Panamericana Km. 1080, C.P. 29050, Apartado Postal: 599<br>
+                            Tel. (961)61 5 03 80 Fax: (961)61 5 16 87<br>
+                            Tuxtla Gutierrez,Chiapas,Chis,Mexico<br>
+                            <br>
+                        </span>
+                    </div>
+                    <div class="col-sm-2">
+                        <i class="fab fa-twitter-square" style="font-size: 40px"></i>
+                        <i class="fab fa-facebook-square" style="font-size: 40px"></i>
+                        <i class="fab fa-google-plus-g" style="font-size: 40px"></i>
+                    </div>
+                </div>
+        </footer>
+    </div>
 
-                      </div>       
-                </div>    
-            </div>
-        </section>
-        <div class="footer">
-                <footer>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <span>
-                                    contacto@ittg.edu.mx<br>
-                                    Carretera Panamericana Km. 1080, C.P. 29050, Apartado Postal: 599<br>
-                                    Tel. (961)61 5 03 80 Fax: (961)61 5 16 87<br>
-                                    Tuxtla Gutierrez,Chiapas,Chis,Mexico<br>
-                                    <br>
-                                </span>
-                            </div>
-                            <div class="col-sm-2">
-                                <i class="fab fa-twitter-square" style="font-size: 40px"></i>
-                                <i class="fab fa-facebook-square" style="font-size: 40px"></i>
-                                <i class="fab fa-google-plus-g" style="font-size: 40px"></i>
-                            </div>
-                        </div>
-                </footer>
-            </div>
-        
 </body>
+
 </html>

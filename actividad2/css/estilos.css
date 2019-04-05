@@ -64,7 +64,9 @@ ul > li{
     text-transform: uppercase
     
 }
-ul > li > a{
+ul > li > a:hover{
+    /* color: blue; */
+    font-weight: bold
    
 }
 .navbar-row-navigation{    
@@ -145,7 +147,11 @@ el container puede funcionar en cualquier parte del documento*/
     font-family: "Arial Black", Gadget, sans-serif;    
     font-size: 30px    
 }
-
+.mat-card:hover{
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(133,118,133,1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(133,118,133,1);
+    box-shadow: 4px 4px 5px 0px rgba(133,118,133,1);
+}
 
 
 
@@ -162,7 +168,7 @@ el container puede funcionar en cualquier parte del documento*/
    color: white;   
    overflow: hidden;    
    text-align: justify;  
-   opacity: .90;
+   opacity: .98;
 }
 section .row{    
     padding-top:40px
