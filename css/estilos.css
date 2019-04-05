@@ -1,0 +1,184 @@
+/*Lo basico como texto y lo general*/
+html, body {
+    margin: 0; padding: 0;  
+}
+/*header sticky*/
+header{      
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    opacity: .98;
+    width: 100%;     
+}
+/*Navbar*/
+
+/*Borde al primer div*/
+.navbar-row-utilidades{
+    border-bottom: 1px solid #C4C4C3;       
+}
+/*donde esta el phone y email*/
+.utilidades{
+    padding: 20px;    
+}
+/*color del texto y de los iconos*/
+.utilidades span{
+    color: #81817B
+}
+/*Separar los elementos entre si para que no luzcan pegados*/
+.contact{
+    margin:10px
+}
+/*otra capa donde esta el botón*/
+.pull-right{
+    float: right;       
+}
+/*diseño del href en forma de boton*/
+.button{   
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: white; /*color botón*/
+    color: black; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/  
+    font-size: 10px
+}
+/*acercamiento del puntero*/
+.button:hover{
+    background-color: #1E009C;
+    color: white
+}
+
+
+
+
+/*Barra de navegacion li*/
+ul > li{
+    display: inline-block; 
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;    
+    padding: 20px 0px 0px 20px; 
+    color: black;
+    text-transform: uppercase
+    
+}
+ul > li > a{
+   
+}
+.navbar-row-navigation{    
+    margin-top:10px;
+    overflow: hidden;    
+}    
+.navbar-row-navigation img{
+    width: 100%
+}
+
+
+
+/*secciones*/
+.row *{
+   float: left;
+}
+
+/*nameless
+el container puede funcionar en cualquier parte del documento*/
+.container{
+    /*margin:0px 80px 0px 80px;*/
+    /*margin-right: auto;
+    margin-left: auto;*/
+    padding-bottom: 40px;   
+    overflow: hidden;    
+    text-align: justify;       
+}
+.container .row .a {      
+    margin-left:20px;   
+    margin-bottom: 10px;  
+    /*overflow: hidden   */
+}
+.nameless{
+    background: #232322;
+    color: white;    
+    overflow: hidden;        
+    width: 100%
+}
+.nameless p{
+    padding-right: 20px;
+}
+/*Carreras*/
+.carreras{
+    background: #F3F3F3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mat-card*/
+.mat-card{    
+    width: 95%;    
+    margin-top:30px !important;
+    background: white;
+    /*box-shadow: 1px 1px 1px 1px white;    */
+}
+.mat-card-content{ 
+    margin-bottom: 20px !important;
+    width: 95%;
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto;    
+}
+.mat-card-header{      
+    padding: 0px 10px 0px 10px;
+    font-family: "Arial Black", Gadget, sans-serif;    
+    font-size: 30px    
+}
+
+
+
+
+
+/*Despues de navbar*/
+
+.img-content{
+    position: relative;    
+}
+.containe{
+   position: absolute;
+   top:40%;   
+   background: red; 
+   color: white;   
+   overflow: hidden;    
+   text-align: justify;  
+   opacity: .90;
+}
+section .row{    
+    padding-top:40px
+}
+
+
+
+/*footer*/
+.footer{
+    background: #232322;
+}
+.footer .container .row{
+    padding: 30px 30px 30px 30px;
+    margin: 0px 0px 0px 0px;  
+    color: white  
+}
+.footer i{
+    margin-left:10px
+}

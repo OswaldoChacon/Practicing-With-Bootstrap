@@ -131,9 +131,7 @@
 @media (min-width: 576px) {     
     /*sm*/
     /*Tamaño de columnas*/
-    .menu li{
-        padding: -100px;
-    }
+ 
     .col-sm-1{
         /*8.3*/
         width: 8%;
@@ -334,3 +332,44 @@ footer span {
 }
 
 
+
+
+
+
+
+/*Ronaldo*/
+@media all and (min-width: 500px){
+    
+    .form-box label{
+        display: block;
+    }
+    
+}
+
+@media all and (min-width: 600px){
+    .form-box{
+        flex-direction: row;
+    }
+    .form-box label{
+        flex-basis: 9rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .form-box input, .form-box select, .form-box textarea{
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .form-box button{
+        margin-left: 9rem;
+    }
+}
+
+@media (min-width:600px)
+{
+    .imagen
+    {
+        width: 400px;
+        height: 400px;
+    }
+} 
